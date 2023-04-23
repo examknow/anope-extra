@@ -49,7 +49,7 @@ public:
 	bool OnHelp(CommandSource &source, const Anope::string &subcommand) anope_override
 	{
 		this->SendSyntax(source);
-		return;
+		return true;
 	}
 };
 
